@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Amiri Quran, serif";
+}
+
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.header__logo {
+  background-image: url("../../assets/logo/rafik-small.svg");
+  background-size: cover;
+  background-position-y: 50%;
+  width: 100%;
+  height: 25vh;
+}
+
+@font-face {
+  font-family: "Amiri Quran, serif";
+  src: url("./../../fonts/Amiri_Quran/AmiriQuran-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+html {
+  max-width: 393px;
+  max-height: 851px;
+  margin: 0 auto;
+}
+
+.intro {
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 2rem 2rem 4rem 2rem;
+}
+.intro__para {
+  margin: 0;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  line-height: 60px;
+}
+
+.grass__video {
+  width: 100%;
+  height: 100% vh;
+}
+
+.middle {
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 3rem 2rem 5rem 2rem;
+  font-family: "Amiri Quran, serif";
+}
+.middle__title {
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+.middle__para {
+  margin: 0;
+  overflow: auto;
+  font-family: "Amiri Quran, serif";
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+}
+
+.sea__video {
+  width: 100%;
+  height: 100%;
+}
+
+.thoughts {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 2rem 6rem 2rem;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+}
+.thoughts__journal {
+  flex-direction: column;
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.thoughts__journal-input {
+  height: 20vh;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+#submit-thought {
+  padding: 1.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgb(159, 159, 247);
+  border: solid 1px #cdd5cb;
+  color: beige;
+  border-radius: 5px;
+}
+
+.sky {
+  margin: 0;
+  height: 15vh;
+}
+.sky__video {
+  width: 100%;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #a9b2a7;
+  margin: 0;
+}
+.footer__text {
+  text-align: center;
+  background-color: #a9b2a7;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 4rem;
+  margin: 0;
+  padding: 2rem 0;
+}/*# sourceMappingURL=styles.css.map */

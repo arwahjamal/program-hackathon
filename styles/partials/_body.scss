@@ -1,0 +1,152 @@
+@use "./breakpoints.scss" as *;
+@use "./resets.scss";
+@use "./variables.scss" as *;
+@use "./typography.scss" as *;
+
+html {
+  max-width: 393px;
+  max-height: 851px;
+  margin: 0 auto;
+}
+
+.intro {
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 2rem 2rem 4rem 2rem;
+
+  &__para {
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+  }
+}
+
+.grass {
+  &__video {
+    width: 100%;
+    height: 100%vh;
+
+    // position: relative;
+    // top: 0;
+    // left: 0;
+    // object-fit: cover;
+    // z-index: -1;
+  }
+}
+
+.middle {
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 3rem 2rem 5rem 2rem;
+  font-family: "Amiri Quran, serif";
+
+  &__title {
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__para {
+    margin: 0;
+
+    overflow: auto;
+    font-family: "Amiri Quran, serif";
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+  }
+}
+
+.sea {
+  &__video {
+    width: 100%;
+    height: 100%;
+
+    // position: relative;
+    // top: 0;
+    // left: 0;
+    // object-fit: cover;
+    // z-index: -1;
+  }
+}
+
+.thoughts {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 2rem 6rem 2rem;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+
+  &__journal {
+    flex-direction: column;
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  // &__journal p {
+  // 	padding: 1rem;
+  // 	font-size: 2rem;
+  // }
+
+  &__journal-input {
+    height: 20vh;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+}
+
+#submit-thought {
+  padding: 1.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgb(159, 159, 247);
+  border: solid 1px #cdd5cb;
+  color: beige;
+  border-radius: 5px;
+}
+
+.sky {
+  margin: 0;
+  height: 15vh;
+
+  &__video {
+    width: 100%;
+    margin: 0;
+
+    // position: relative;
+    // top: 0;
+    // left: 0;
+    // object-fit: cover;
+    // z-index: -1;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #a9b2a7;
+  margin: 0;
+
+  &__text {
+    text-align: center;
+    background-color: #a9b2a7;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 4rem;
+    margin: 0;
+    padding: 2rem 0;
+  }
+}
