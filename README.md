@@ -1,5 +1,7 @@
 <h1 align="center">Rafik: Enhancing Pilgrimage Experiences</h1>
 
+<h4 align="center"><a href="https://arwah.me/p/bcQQME3M-rafik">View Full Portfolio Details</a></h4>
+
 <h2 align="center">Prototype Overview</h2>
 
 Rafik is a front-end web application aimed at enhancing the spiritual journey of Muslims on pilgrimage to Mecca. Leveraging the Quran.com API for spiritual sustenance and employing local storage for recording personal experiences, Rafik is a project conceived during a 24-hour hackathon at BrainStation's software engineering bootcamp, inspired by my own pilgrimage to Mecca in late 2022.
